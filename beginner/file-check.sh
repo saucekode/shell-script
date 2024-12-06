@@ -6,7 +6,7 @@
 # check if directory contains any data
 # check if file exists inside directory
 
-directory_to_check="$1"
+directory_to_check=$(realpath "$1")
 file_to_check="$2"
 
 if [ -z  "$directory_to_check" ]; then
