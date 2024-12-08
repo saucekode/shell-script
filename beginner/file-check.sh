@@ -1,10 +1,4 @@
 #!/bin/bash
-# enter name of directory you want to check the file in
-# enter name of file in the said directory
-
-# check if directory is indeed a directory
-# check if directory contains any data
-# check if file exists inside directory
 
 directory_to_check=$(realpath "$1")
 file_to_check="$2"
