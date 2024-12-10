@@ -1,9 +1,9 @@
 #!/bin/bash
 
-countdown="$1"
-delay="$2"
+countdown=$1
+delay=$2
 
-if [ -z "$countdown" ] || [ -z "$delay" ]; then
+if [ -z $countdown ] || [ -z $delay ]; then
     echo "Provide a number for countdown and a delay time"
     exit 1
 else
